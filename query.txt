@@ -1,0 +1,2 @@
+SET @marks:=50;
+SELECT Name FROM STUDENTS WHERE Marks > @marks ORDER BY RIGHT(Name, 3) , Id asc;
